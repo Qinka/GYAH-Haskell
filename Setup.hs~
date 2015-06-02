@@ -1,0 +1,30 @@
+import Distribution.Simple
+import System.IO
+import System.Directory
+main = do
+    --your
+
+    --your end
+    defaultMain
+    where
+    langM = [
+        ("*Template","main = return ()\n"),
+        ("*NoteMark","--"),
+        ("*SrcAhead","Haskell_"),
+        ("*SrcBack",".hs"),
+        ("*COB",""),
+        ("*COE",""),
+        ("*ImportAhead","import "),
+        ("*ImportBack","\n"), -- need break a new line
+        ("*FE",".hs"),
+        ]
+{-
+    shell = [
+        ("*Del","del"),
+        ("*DelForce"," /F"),
+        ("*DelQuite","/Q"),
+        ("*DelList","*.hi *.hs~ *.o *.exe"),
+        ("*ShellFileBack",".bat"),
+        ("*SysShellRun","cmd"),
+        ]
+-}
