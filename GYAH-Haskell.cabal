@@ -2,7 +2,8 @@ name: GYAH-Haskell
 version: 0.1
 cabal-version: 1.2
 build-type: Custom
-license: BSD
+license: BSD3
+license-files: LICENSE
 description: 
     null
 author: Qinka
