@@ -30,8 +30,8 @@ main = do
         ("*NoteMark","--"),
         ("*SrcAhead","Haskell_"),
         ("*SrcBack",".hs"),
-        ("*COB",""),
-        ("*COE",""),
+        ("*COB","CompilerExtraOptionsBegin"),
+        ("*COE","CompilerExtraOptionsEnd"),
         ("*ImportAhead","import "),
         ("*ImportBack","\n"), -- need break a new line
         ("*FE","hs"),
