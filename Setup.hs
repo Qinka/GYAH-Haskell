@@ -3,6 +3,9 @@ import System.IO
 import System.Directory
 import System.Environment
 import Data.List
+
+--note3
+--new
 main = do
     --your
     (x:_) <- getArgs
